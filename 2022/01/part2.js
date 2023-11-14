@@ -32,5 +32,7 @@ for (var i = 0; i < elves.length; i++) {
 maxSums.push(sum);
 maxSums.sort(function (a, b) { return b - a; });
 maxSums.length = 3;
+var totalMaxSum = maxSums.reduce(function (a, b) { return a + b; }, 0);
 // Log the maximum sum to the console
 console.log(maxSums);
+console.log(totalMaxSum);

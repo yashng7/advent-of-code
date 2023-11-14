@@ -36,5 +36,8 @@ maxSums.push(sum);
 maxSums.sort((a, b) => b - a);
 maxSums.length = 3;
 
+const totalMaxSum = maxSums.reduce((a, b) => a + b, 0);
+
 // Log the maximum sum to the console
 console.log(maxSums);
+console.log(totalMaxSum);
