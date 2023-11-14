@@ -18,6 +18,4 @@ To run a solution, navigate to the directory containing the solution file and ru
 
 While I appreciate the thought, this repository is for my personal solutions and I am not accepting contributions. However, I encourage you to create your own Advent of Code solutions repository!
 
-## License
 
-This project is licensed under the MIT License. See the LICENSE.md file for details.
